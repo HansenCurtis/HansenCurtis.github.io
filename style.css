@@ -1,15 +1,17 @@
 body{
   background-color: #444444;
     color: #dddddd;
-  text-align: center;
+  text-align: right;
   font-family: arial, helvetica, sans-serif;
   margin: 15%, 25%;
+  padding: 5px;
 }
 h1{
  color: #f0f8ff;
  background-color: rbga(235,245,251);
  border-bottom: 1px solid #dddddd;
- font-weight: 900; 
+ font-weight: 900;
+ text-shadow: 2px 3px 5px blue;
 }
 h3{
   color: rgba(400,50,5,0.70);
@@ -18,14 +20,26 @@ h3{
   text-decoration: underline;    
 }
 h4{
-  text-align: left;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   border-bottom: 2px dotted;
   font-style: italic;  
+}
+h5{
+  text-shadow: 1px 1px 3px black;
 }
 h6{
   font-style: bold;
   text-decoration: underline;
   font-weight: 300;
+}
+img{
+  width: 192px;
+  border: 5px solid #555555;
+  border-radius: 25%;
+  padding: 10px;
+  margin: 5px;
+  float: left
 }
 .exp-header {
   font-style: bold;
@@ -35,3 +49,4 @@ h6{
   border-bottom: 3px solid #dddddd;
   background-color: rgba(0,0,100,0.2)
 }
+
