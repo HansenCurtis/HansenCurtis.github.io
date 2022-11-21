@@ -1,9 +1,9 @@
 body{
   background-color: #444444;
-    color: #dddddd;
+  color: #dddddd;
   text-align: center;
   font-family: arial, helvetica, sans-serif;
-  margin: 15%, 25%;
+  margin: auto;
   padding: 5px;
 }
 h1{
@@ -23,7 +23,7 @@ h4{
   text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   border-bottom: 2px dotted;
-  font-style: italic;  
+  font-style: bold;  
 }
 h5{
   text-shadow: 1px 1px 3px black;
@@ -38,8 +38,20 @@ img{
   border: 5px solid #555555;
   border-radius: 25%;
   padding: 10px;
+  margin: auto;
+  float: auto;
+  object-fit: cover;
+  object-position: 80% 20%;
+}
+ul{
+  background: #5A5A5A;
   margin: 5px;
-  float: left
+  padding: 1px;
+  text-align: center;
+  border-top: 3px solid;
+  border-bottom: 2px solid;
+  column: 320px 3;
+  
 }
 .exp-header {
   font-style: bold;
